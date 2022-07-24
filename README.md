@@ -2,6 +2,11 @@
 #### TG: https://t.me/HarbourToulu
 #### Special declaration: this branch is only for learning, any use of the script to do illegal problems have nothing to do with me!
 
+**拉库命令👇**
+
+原仓库:
+ql repo https://github.com/HarbourJ/HarbourToulu.git "jd_" "backUp" "jdCookie|newUserInfo|USER_AGENTS|sign_log" "dev_jinli"
+
 <!--
 **HarbourJ/HarbourJ** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
