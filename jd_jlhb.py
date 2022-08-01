@@ -7,8 +7,10 @@ Author: SheYu09, HarbourJ
 cron: 0 0 * * * jd_jlhb.py
 new Env('疯狂吧锦鲤')
 '''
+import urllib3
 from newUserInfo import *
 requests.packages.urllib3.disable_warnings()
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def JD_API_HOST(e = 'h5activityIndex', t = False):
 	s.headers['Referer'] = 'https://happy.m.jd.com/'
