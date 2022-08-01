@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*
 '''
 项目名称: JD-Script / jd_jlhb
-活动名称: 疯狂吧锦鲤-无限开放日
+活动名称: 疯狂吧锦鲤
 Author: SheYu09, HarbourJ
 cron: 0 0 * * * jd_jlhb.py
-new Env('疯狂吧锦鲤-无限开放日')
+new Env('疯狂吧锦鲤')
 '''
 from newUserInfo import *
 requests.packages.urllib3.disable_warnings()

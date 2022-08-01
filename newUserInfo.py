@@ -44,11 +44,6 @@ def newUserInfo():
 		print("自行添加环境变量：JlhbToken\n")
 		exit()
 	try:
-		s.jlhb_api = 'api.sheyu09.xyz:8443' # environ["JlhbUrl"]
-	except:
-		print("自行添加环境变量：JlhbUrl\n")
-		exit()
-	try:
 		s.headers['Referer'] = ''
 		r = sign(
 			{
